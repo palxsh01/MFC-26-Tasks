@@ -21,8 +21,8 @@ const STAT_LABELS: Record<string, string> = {
 
 export const StatsVisualizer: React.FC<StatsVisualizerProps> = ({ stats }) => {
   const getStatColor = (name: string) => {
-    if (name === 'attack' || name === 'special-attack') return '#F87171'; // Lighter Red for dark mode
-    if (name === 'defense' || name === 'special-defense') return '#60A5FA'; // Lighter Blue for dark mode
+    if (name === 'attack' || name === 'special-attack') return '#F87171';
+    if (name === 'defense' || name === 'special-defense') return '#60A5FA';
     return '#94A3B8';
   };
 
